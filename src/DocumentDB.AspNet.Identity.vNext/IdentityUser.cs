@@ -6,11 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DocumentDB.AspNet.Identity
-{
-    public class IdentityUser : IUser
-    {
-        [JsonProperty(PropertyName = "id")]
+namespace DocumentDB.AspNet.Identity {
+    public class IdentityUser : IUser<string> {
+        [JsonProperty( PropertyName = "id" )]
         public string Id { get; set; }
 
         public string UserName { get; set; }
@@ -69,30 +67,25 @@ namespace DocumentDB.AspNet.Identity
         /// Gets the logins.
         /// </summary>
         /// <value>The logins.</value>
-        public virtual List<UserLoginInfo> Logins { get; private set; }
+        public virtual List<UserLoginInfo> Logins { get; private set; } = new List<UserLoginInfo>( );
 
         /// <summary>
         /// Gets the claims.
         /// </summary>
         /// <value>The claims.</value>
-        public virtual List<IdentityUserClaim> Claims { get; private set; }
+        public virtual List<IdentityUserClaim> Claims { get; private set; } = new List<IdentityUserClaim>( );
 
         /// <summary>
         /// Gets the roles.
         /// </summary>
         /// <value>The roles.</value>
-        public virtual List<string> Roles { get; private set; }
+        public virtual List<string> Roles { get; private set; } = new List<string>( );
 
-        public IdentityUser()
-        {
-            this.Claims = new List<IdentityUserClaim>();
-            this.Roles = new List<string>();
-            this.Logins = new List<UserLoginInfo>();
+        public IdentityUser( ) {
         }
 
-        public IdentityUser(string userName)
-            : this()
-        {
+        public IdentityUser( string userName )
+            : this( ) {
             this.UserName = userName;
         }
     }
@@ -100,8 +93,7 @@ namespace DocumentDB.AspNet.Identity
     /// <summary>
     /// Class IdentityUserClaim.
     /// </summary>
-    public class IdentityUserClaim
-    {
+    public class IdentityUserClaim {
         /// <summary>
         /// Gets or sets the identifier.
         /// </summary>

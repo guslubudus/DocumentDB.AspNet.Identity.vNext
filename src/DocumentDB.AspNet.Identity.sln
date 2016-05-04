@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentDB.AspNet.Identity", "DocumentDB.AspNet.Identity.csproj", "{53679491-3663-4575-B8A3-B01422334406}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DocumentDB.AspNet.Identity.vNext", "DocumentDB.AspNet.Identity.vNext\DocumentDB.AspNet.Identity.vNext.xproj", "{1E936B34-FF79-447A-B5C0-997A22431532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A6DC52B9-70F9-444D-9482-4EE8C4B282B4}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tests.vNext", "Tests\Tests.vNext.xproj", "{DA4763E8-FD39-4CBA-A7C2-BA1CC9225312}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E5EB5B18-65E9-4744-A2E9-463EE7D4E73A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18A05174-2B5E-49C3-8D59-5478CD858894}"
+	ProjectSection(SolutionItems) = preProject
+		DocumentDB.AspNet.Identity.vNext\global.json = DocumentDB.AspNet.Identity.vNext\global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{723B1BB2-283F-4642-B578-E92C36069640}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
@@ -20,14 +25,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{53679491-3663-4575-B8A3-B01422334406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53679491-3663-4575-B8A3-B01422334406}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53679491-3663-4575-B8A3-B01422334406}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53679491-3663-4575-B8A3-B01422334406}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A6DC52B9-70F9-444D-9482-4EE8C4B282B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6DC52B9-70F9-444D-9482-4EE8C4B282B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6DC52B9-70F9-444D-9482-4EE8C4B282B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6DC52B9-70F9-444D-9482-4EE8C4B282B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E936B34-FF79-447A-B5C0-997A22431532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E936B34-FF79-447A-B5C0-997A22431532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E936B34-FF79-447A-B5C0-997A22431532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E936B34-FF79-447A-B5C0-997A22431532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4763E8-FD39-4CBA-A7C2-BA1CC9225312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4763E8-FD39-4CBA-A7C2-BA1CC9225312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4763E8-FD39-4CBA-A7C2-BA1CC9225312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4763E8-FD39-4CBA-A7C2-BA1CC9225312}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

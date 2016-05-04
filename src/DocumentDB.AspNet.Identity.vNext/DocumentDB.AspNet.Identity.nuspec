@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>DocumentDB.AspNet.Identity</id>
-    <version>1.0.8-beta</version>
+    <version>1.7.0-beta</version>
     <title>DocumentDB.AspNet.Identity</title>
-    <authors>Tracker086</authors>
-    <owners>Tracker086</owners>
+    <authors>Guslubudus</authors>
+    <owners>Guslubudus</owners>
 	<licenseUrl>https://github.com/tracker086/DocumentDB.AspNet.Identity/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/tracker086/DocumentDB.AspNet.Identity</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A DocumentDB provider for the new ASP.NET Identity framework.</description>
-    <copyright>Copyright 2014</copyright>
+    <description>A fork of Tracker086 DocumentDB provider for the new ASP.NET Identity framework to include some improvements.</description>
+    <copyright>Copyright 2016</copyright>
   </metadata>
 </package>

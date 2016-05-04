@@ -1,0 +1,34 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Tests.vNext Class Library",
+  "authors": [ "gus" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "commands": {
+    "test": "xunit.runner.dnx"
+  },
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Collections": "4.0.0.0",
+        "System.Linq": "4.0.0.0",
+        "System.Runtime": "4.0.10.0"
+      }
+    }
+  },
+  "dependencies": {
+    "Microsoft.AspNet.Identity.Core": "2.2.1",
+    "Microsoft.Azure.DocumentDB": "1.7.0",
+    "DocumentDB.AspNet.Identity.vNext": "1.7.0-*",
+    "Newtonsoft.Json": "8.0.3",
+    "xunit": "2.1.0-*",
+    "xunit.core": "2.1.0-*",
+    "xunit.extensibility.core": "2.1.0-*",
+    "xunit.extensibility.execution": "2.1.0-*",
+    "xunit.assert": "2.1.0-*",
+    "xunit.runner.console": "2.1.0",
+    "xunit.runner.dnx": "2.1.0-rc1-build204",
+    "xunit.runner.visualstudio": "2.1.0-*"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.7.3-beta",
+  "description": "DocumentDB.AspNet.Identity.vNext Class Library",
+  "authors": [ "gus" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "scripts": {
+    "postpack": [
+      "dnu packages add %project:Directory%\\..\\artifacts\\bin\\%project:Name%\\release\\%project:Name%.%project:Version%.nupkg \\\\\\dev2\\NugetRepo"
+    ]
+  },
+  "frameworks": {
+    "net451": {
+      "frameworkAssemblies": {
+        "System.Collections": "4.0.0.0",
+        "System.Linq": "4.0.0.0"
+      },
+      "dependencies": {
+        "Microsoft.AspNet.Identity.Core": "2.2.1",
+        "Microsoft.Azure.DocumentDB": "1.7.0"
+      }
+    }
+  },
+  "dependencies": {
+    "Newtonsoft.Json": "8.0.3"
+  }
+}

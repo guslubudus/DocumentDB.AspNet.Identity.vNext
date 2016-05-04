@@ -1,0 +1,6 @@
+﻿{
+  "maxParallelThreads": 4,
+  "parallelizeAssembly": true,
+  "appDomain": "required",
+  "diagnosticMessages": true
+}
